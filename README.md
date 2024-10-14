@@ -50,7 +50,7 @@ https://yandex.cloud/ru/docs/cli/quickstart#linux_1
 
 bash create_vm.sh otus-prod
 заранее прописал все в metadata
-
+yc compute instance list
 
 Для гита
 Делаем папку .github
