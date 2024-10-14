@@ -3,9 +3,10 @@ module for functions
 
 """
 
-from typing import List,Union
+from typing import List, Union
 
-def calculate_mean(numbers: List[Union[int,float]])->float:
+
+def calculate_mean(numbers: List[Union[int, float]]) -> float:
     """
     function for calculation mean
 
@@ -20,4 +21,4 @@ def calculate_mean(numbers: List[Union[int,float]])->float:
         mean of numbers
 
     """
-    return sum(numbers)/len(numbers)
+    return sum(numbers) / len(numbers)
